@@ -1,0 +1,44 @@
+.container {
+    background-color: #C3BEF0;
+    border: 1px solid #999;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.container div {
+    background-color: #CADEFC;
+    padding: 20px;
+}
+
+.left {
+    box-sizing: border-box;
+    width: 200px;
+    float: left;
+}
+
+.right {
+    box-sizing: border-box;
+    width: 120px;
+    float: right;
+}
+
+.middle {
+    margin-left: 220px;
+    margin-right: 140px;
+}
+
+.left img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    float: left;
+}
+
+.right img {
+    width: 80px;
+    height: 80px;
+}
+
+.right img:not(:last-child){
+    margin-bottom: 20px;
+}

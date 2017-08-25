@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	display: block;
+
+}
+
+body {
+	background-color: #eee;
+}
+
+.header {
+	background-color: #333;
+	height: 80px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.logo {
+	float: left;
+}
+
+.daohang {
+	float: right;
+	margin-top: 30px;
+	margin-right: 30px;
+}
+
+.header ul {
+	list-style: none;
+}
+
+.header li {
+	float: left;
+	margin-left: 20px;
+}
+
+.link {
+	color: #ddd;
+	text-decoration: none;
+}
+
+.main {
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.mainLeft {
+	margin-left: 400px;
+	margin-right: 620px;
+	width: 700px;
+}
+
+.mainRight {
+	box-sizing: border-box;
+	width: 400px;
+	float: right;
+	margin-right: 300px;
+	padding: 20px;
+}
+
+footer {
+	width: 100%
+}
+
+.art {
+	background-color: white;
+	border-right: 2px solid #696969;
+	border-bottom: 2px solid #696969;
+}
+
+.mainLeft .art {
+	margin-bottom: 20px;
+	padding: 16px 20px;
+	line-height: 25px;
+}
+
+.art img {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.mainRight div {
+	margin-bottom: 10px;
+	font-size: 14px;
+	height: 30px;
+}
+
+.mainRight div:last-child {
+	margin-bottom: 100px;
+}
+
+.mainRight span {
+	float: left;
+	text-align: right;
+	width: 120px;
+}
+
+.mainRight .btn {
+	width: 300px;
+	height: 40px;
+	margin-top: 88px;
+	margin-left: 30px;
+	border-radius: 2px;
+}
+
+.passwordZhushi {
+	margin-left: 120px;
+	color: #aaa;
+}
+
+.mainRight textarea {
+	width: 200px;
+	height: 100px;
+}
+
+footer {
+	text-align: center;
+}
+
